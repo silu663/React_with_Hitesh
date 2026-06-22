@@ -25,7 +25,7 @@ const passwordRef = useRef(null)
 
 
   const copyPassword = useCallback(() =>{
-    window.navigator.clipboard.writeText(password)
+    window.navigator.clipboard.writeText(password) 
   },
 [password])
 
